@@ -1,0 +1,420 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BMI270
+#/2018740/1621525/2.50/14/3/Integrated Circuit
+DEF BMI270 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "BMI270" 1050 500 50 H V L CNN
+F2 "BMI270" 1050 400 50 H I L CNN
+F3 "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf" 1050 300 50 H I L CNN
+F4 "IMUs - Inertial Measurement Units Smart Ultra-Low Power Inertial Measurement Unit (IMU) for Wearable Applications" 1050 200 50 H I L CNN "Description"
+F5 "0.87" 1050 100 50 H I L CNN "Height"
+F6 "BOSCH" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "BMI270" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "262-BMI270" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMI270?qs=u16ybLDytRYIj%252BjQEee88A%3D%3D" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "BMI270" 1050 -400 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bmi270/bosch?utm_currency=USD&region=nac" 1050 -500 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SDO 1 0 0 200 R 50 50 0 0 P
+X ASDX 2 0 -100 200 R 50 50 0 0 P
+X ASCX 3 0 -200 200 R 50 50 0 0 P
+X INT1 4 0 -300 200 R 50 50 0 0 P
+X VDDIO 5 500 -1000 200 U 50 50 0 0 P
+X GNDIO 6 600 -1000 200 U 50 50 0 0 P
+X GND 7 700 -1000 200 U 50 50 0 0 P
+X VDD 8 1200 -300 200 L 50 50 0 0 P
+X INT2 9 1200 -200 200 L 50 50 0 0 P
+X OCSB 10 1200 -100 200 L 50 50 0 0 P
+X OSDO 11 1200 0 200 L 50 50 0 0 P
+X CSB 12 700 600 200 D 50 50 0 0 P
+X SCX 13 600 600 200 D 50 50 0 0 P
+X SDX 14 500 600 200 D 50 50 0 0 P
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ESP32-C6
+#/18817724/1621525/2.50/41/3/Integrated Circuit
+DEF ESP32-C6 IC 0 30 Y Y 1 F N
+F0 "IC" 1450 900 50 H V L CNN
+F1 "ESP32-C6" 1450 800 50 H V L CNN
+F2 "QFN40P500X500X90-41N-D" 1450 700 50 H I L CNN
+F3 "https://ro.mouser.com/datasheet/2/891/esp32_c6_datasheet_en-3304070.pdf" 1450 600 50 H I L CNN
+F4 "QFN32 (55 mm) Package" 1450 500 50 H I L CNN "Description"
+F5 "0.9" 1450 400 50 H I L CNN "Height"
+F6 "Espressif Systems" 1450 300 50 H I L CNN "Manufacturer_Name"
+F7 "ESP32-C6" 1450 200 50 H I L CNN "Manufacturer_Part_Number"
+F8 "356-ESP32-C6" 1450 100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-C6?qs=Imq1NPwxi75noDtUpuVuWw%3D%3D" 1450 0 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1450 -100 50 H I L CNN "Arrow Part Number"
+F11 "" 1450 -200 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ANT 1 0 0 200 R 50 50 0 0 P
+X VDDA3P3_1 2 0 -100 200 R 50 50 0 0 P
+X VDDA3P3_2 3 0 -200 200 R 50 50 0 0 P
+X CHIP_PU 4 0 -300 200 R 50 50 0 0 P
+X VDDPST1 5 0 -400 200 R 50 50 0 0 P
+X XTAL_32K_P 6 0 -500 200 R 50 50 0 0 P
+X XTAL_32K_N 7 0 -600 200 R 50 50 0 0 P
+X GPIO2 8 0 -700 200 R 50 50 0 0 P
+X GPIO3 9 0 -800 200 R 50 50 0 0 P
+X MTMS 10 0 -900 200 R 50 50 0 0 P
+X MTDI 11 300 -1600 200 U 50 50 0 0 P
+X MTCK 12 400 -1600 200 U 50 50 0 0 P
+X MTDO 13 500 -1600 200 U 50 50 0 0 P
+X GPIO8 14 600 -1600 200 U 50 50 0 0 P
+X GPIO9 15 700 -1600 200 U 50 50 0 0 P
+X GPIO10 16 800 -1600 200 U 50 50 0 0 P
+X GPIO11 17 900 -1600 200 U 50 50 0 0 P
+X GPIO12 18 1000 -1600 200 U 50 50 0 0 P
+X GPIO13 19 1100 -1600 200 U 50 50 0 0 P
+X SPICS0 20 1200 -1600 200 U 50 50 0 0 P
+X U0RXD 30 1600 0 200 L 50 50 0 0 P
+X U0TXD 29 1600 -100 200 L 50 50 0 0 P
+X VDDPST2 28 1600 -200 200 L 50 50 0 0 P
+X GPIO15 27 1600 -300 200 L 50 50 0 0 P
+X SPID 26 1600 -400 200 L 50 50 0 0 P
+X SPICLK 25 1600 -500 200 L 50 50 0 0 P
+X SPIHD 24 1600 -600 200 L 50 50 0 0 P
+X VDD_SPI 23 1600 -700 200 L 50 50 0 0 P
+X SPIWP 22 1600 -800 200 L 50 50 0 0 P
+X SPIQ 21 1600 -900 200 L 50 50 0 0 P
+X EP 41 300 900 200 D 50 50 0 0 P
+X VDDA2 40 400 900 200 D 50 50 0 0 P
+X XTAL_P 39 500 900 200 D 50 50 0 0 P
+X XTAL_N 38 600 900 200 D 50 50 0 0 P
+X VDDA1 37 700 900 200 D 50 50 0 0 P
+X SDIO_DATA3 36 800 900 200 D 50 50 0 0 P
+X SDIO_DATA2 35 900 900 200 D 50 50 0 0 P
+X SDIO_DATA1 34 1000 900 200 D 50 50 0 0 P
+X SDIO_DATA0 33 1100 900 200 D 50 50 0 0 P
+X SDIO_CLK 32 1200 900 200 D 50 50 0 0 P
+X SDIO_CMD 31 1300 900 200 D 50 50 0 0 P
+P 5 0 1 6 200 700 1400 700 1400 -1400 200 -1400 200 700 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TP4056
+#/1112022/1621525/2.50/9/4/Connector
+DEF TP4056 J 0 30 Y Y 1 F N
+F0 "J" 1250 300 50 H V L CNN
+F1 "TP4056" 1250 200 50 H V L CNN
+F2 "SOIC127P600X175-9N" 1250 100 50 H I L CNN
+F3 "https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf" 1250 0 50 H I L CNN
+F4 "1A Standalone Linear Li-lon Battery Charger, SOP-8" 1250 -100 50 H I L CNN "Description"
+F5 "1.75" 1250 -200 50 H I L CNN "Height"
+F6 "NanJing Top Power" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TP4056" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1250 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1250 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X TEMP1 1 0 0 200 R 50 50 0 0 P
+X PROG2 2 0 -100 200 R 50 50 0 0 P
+X GND_3 3 0 -200 200 R 50 50 0 0 P
+X VCC4 4 0 -300 200 R 50 50 0 0 P
+X EP 9 700 -800 200 U 50 50 0 0 P
+X CE 8 1400 0 200 L 50 50 0 0 P
+X ~CHRG 7 1400 -100 200 L 50 50 0 0 P
+X ~STDBY 6 1400 -200 200 L 50 50 0 0 P
+X BAT 5 1400 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BME690
+#/20202677/1621525/2.50/8/3/Integrated Circuit
+DEF BME690 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "BME690" 1050 200 50 H V L CNN
+F2 "BME690" 1050 100 50 H I L CNN
+F3 "https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme690/#documents" 1050 0 50 H I L CNN
+F4 "Multiple Function Sensor Modules BME690 is the gas sensor with Artificial Intelligence (AI) and integrated high-linearity and high-accuracy  pressure, humidity and temperature sensors." 1050 -100 50 H I L CNN "Description"
+F5 "1" 1050 -200 50 H I L CNN "Height"
+F6 "BOSCH" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BME690" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "262-BME690" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BME690?qs=%252BXxaIXUDbq38jwlEAGDF7A%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "BME690" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bme690/bosch?utm_currency=USD&region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND_1 1 1200 0 200 L 50 50 0 0 P
+X CSB 2 1200 -100 200 L 50 50 0 0 P
+X SDI 3 1200 -200 200 L 50 50 0 0 P
+X SCK 4 1200 -300 200 L 50 50 0 0 P
+X SDO 5 0 -300 200 R 50 50 0 0 P
+X VDDIO 6 0 -200 200 R 50 50 0 0 P
+X GND_2 7 0 -100 200 R 50 50 0 0 P
+X VDD 8 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BMM350
+#/17968268/1621525/2.50/9/3/Integrated Circuit
+DEF BMM350 IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "BMM350" 1150 200 50 H V L CNN
+F2 "BGA9C40P3X3_128X128X54" 1150 100 50 H I L CNN
+F3 "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmm350-ds001.pdf" 1150 0 50 H I L CNN
+F4 "Board Mount Hall Effect / Magnetic Sensors High-Performance Magnometer" 1150 -100 50 H I L CNN "Description"
+F5 "0.54" 1150 -200 50 H I L CNN "Height"
+F6 "BOSCH" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BMM350" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "262-BMM350" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMM350?qs=amGC7iS6iy9v98dnmxozLQ%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "BMM350" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bmm350/bosch?region=nac" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X INT A1 0 0 200 R 50 50 0 0 P
+X SDA A2 0 -100 200 R 50 50 0 0 P
+X SCK A3 0 -200 200 R 50 50 0 0 P
+X GND B1 0 -300 200 R 50 50 0 0 P
+X ADSEL B2 0 -400 200 R 50 50 0 0 P
+X VDDIO B3 1300 0 200 L 50 50 0 0 P
+X VDD C1 1300 -100 200 L 50 50 0 0 P
+X CRST C2 1300 -200 200 L 50 50 0 0 P
+X BYPASS C3 1300 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SCD40-D-R2
+#/13696271/1621525/2.50/21/0/Integrated Circuit
+DEF SCD40-D-R2 IC 0 30 Y Y 1 F N
+F0 "IC" 1150 700 50 H V L CNN
+F1 "SCD40-D-R2" 1150 600 50 H V L CNN
+F2 "SCD40DR2" 1150 500 50 H I L CNN
+F3 "https://www.arrow.com/en/products/scd40-d-r2/sensirion-ag" 1150 400 50 H I L CNN
+F4 "Air Quality Sensor CO2 Sensor 2.5V/3.3V/5V 20-Pin SMD EP" 1150 300 50 H I L CNN "Description"
+F5 "6.8" 1150 200 50 H I L CNN "Height"
+F6 "Sensirion" 1150 100 50 H I L CNN "Manufacturer_Name"
+F7 "SCD40-D-R2" 1150 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "403-SCD40-D-R2" 1150 -100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Sensirion/SCD40-D-R2?qs=HBWAp0VN4RjIKW%252BlMeZn1w%3D%3D" 1150 -200 50 H I L CNN "Mouser Price/Stock"
+F10 "SCD40-D-R2" 1150 -300 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/scd40-d-r2/sensirion-ag?utm_currency=USD&region=nac" 1150 -400 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X DNC_1 1 0 0 200 R 50 50 0 0 P
+X DNC_2 2 0 -100 200 R 50 50 0 0 P
+X DNC_3 3 0 -200 200 R 50 50 0 0 P
+X DNC_4 4 0 -300 200 R 50 50 0 0 P
+X DNC_5 5 0 -400 200 R 50 50 0 0 P
+X GND_1 6 400 -1100 200 U 50 50 0 0 P
+X VDD 7 500 -1100 200 U 50 50 0 0 P
+X DNC_6 8 600 -1100 200 U 50 50 0 0 P
+X SCL 9 700 -1100 200 U 50 50 0 0 P
+X SDA 10 800 -1100 200 U 50 50 0 0 P
+X DNC_7 11 1300 -400 200 L 50 50 0 0 P
+X DNC_8 12 1300 -300 200 L 50 50 0 0 P
+X DNC_9 13 1300 -200 200 L 50 50 0 0 P
+X DNC_10 14 1300 -100 200 L 50 50 0 0 P
+X DNC_11 15 1300 0 200 L 50 50 0 0 P
+X DNC_12 16 900 700 200 D 50 50 0 0 P
+X DNC_13 17 800 700 200 D 50 50 0 0 P
+X DNC_14 18 700 700 200 D 50 50 0 0 P
+X VDDH 19 600 700 200 D 50 50 0 0 P
+X GND_2 20 500 700 200 D 50 50 0 0 P
+X GND_3 21 400 700 200 D 50 50 0 0 P
+P 5 0 1 6 200 500 1100 500 1100 -900 200 -900 200 500 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SCD41-D-R1
+#/13814534/1621525/2.50/21/3/Integrated Circuit
+DEF SCD41-D-R1 IC 0 30 Y Y 1 F N
+F0 "IC" 1150 700 50 H V L CNN
+F1 "SCD41-D-R1" 1150 600 50 H V L CNN
+F2 "SCD41DR1" 1150 500 50 H I L CNN
+F3 "https://sensirion.com/media/documents/48C4B7FB/64C134E7/Sensirion_SCD4x_Datasheet.pdf" 1150 400 50 H I L CNN
+F4 "Air Quality Sensors Sensirion photoacoustic CO2 sensor 10.1 x 10.1 x 6.5 mm3" 1150 300 50 H I L CNN "Description"
+F5 "6.8" 1150 200 50 H I L CNN "Height"
+F6 "Sensirion" 1150 100 50 H I L CNN "Manufacturer_Name"
+F7 "SCD41-D-R1" 1150 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "403-SCD41-D-R1" 1150 -100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Sensirion/SCD41-D-R1?qs=HBWAp0VN4Rg1hR6vTmplbw%3D%3D" 1150 -200 50 H I L CNN "Mouser Price/Stock"
+F10 "SCD41-D-R1" 1150 -300 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/scd41-d-r1/sensirion-ag?utm_currency=USD&region=nac" 1150 -400 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X DNC_1 1 0 0 200 R 50 50 0 0 P
+X DNC_2 2 0 -100 200 R 50 50 0 0 P
+X DNC_3 3 0 -200 200 R 50 50 0 0 P
+X DNC_4 4 0 -300 200 R 50 50 0 0 P
+X DNC_5 5 0 -400 200 R 50 50 0 0 P
+X GND_1 6 400 -1100 200 U 50 50 0 0 P
+X VDD 7 500 -1100 200 U 50 50 0 0 P
+X DNC_6 8 600 -1100 200 U 50 50 0 0 P
+X SCL 9 700 -1100 200 U 50 50 0 0 P
+X SDA 10 800 -1100 200 U 50 50 0 0 P
+X DNC_7 11 1300 -400 200 L 50 50 0 0 P
+X DNC_8 12 1300 -300 200 L 50 50 0 0 P
+X DNC_9 13 1300 -200 200 L 50 50 0 0 P
+X DNC_10 14 1300 -100 200 L 50 50 0 0 P
+X DNC_11 15 1300 0 200 L 50 50 0 0 P
+X DNC_12 16 900 700 200 D 50 50 0 0 P
+X DNC_13 17 800 700 200 D 50 50 0 0 P
+X DNC_14 18 700 700 200 D 50 50 0 0 P
+X VDDH 19 600 700 200 D 50 50 0 0 P
+X GND_2 20 500 700 200 D 50 50 0 0 P
+X GND_3 21 400 700 200 D 50 50 0 0 P
+P 5 0 1 6 200 500 1100 500 1100 -900 200 -900 200 500 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1734028-1
+#/542065/1621525/2.50/6/2/Connector
+DEF 1734028-1 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "1734028-1" 750 200 50 H V L CNN
+F2 "17340281" 750 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=7-1773442-0&DocType=Data%20Sheet&DocLang=English&PartCntxt=1734028-1&DocFormat=pdf" 750 0 50 H I L CNN
+F4 "Body Features: Shell Plating Material Nickel over Copper | Connector Profile Standard | Configuration Features: Number of Mounting Legs 2 | Number of Ports 1 | Number of Positions 4 | Contact Features: Contact Mating Area Plating Material Thickness .76 MICM | Contact Mating Area Plating Material Gold Flash over Palladium Nickel | Contact Mating Area Plating Material Thickness 29.92 MICIN | Contact Current Rating (Max) 1.5 AMP | Dimensions: PCB Thickness (Recommended) .063 INCH | PCB Thickness (Recommended) " 750 -100 50 H I L CNN "Description"
+F5 "4.5" 750 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "1734028-1" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "571-1734028-1" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1734028-1?qs=ozkTL%2FUej0RBWHu8gcAkZQ%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "1734028-1" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/1734028-1/te-connectivity?utm_currency=USD&region=nac" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 900 -300 200 L 50 50 0 0 P
+X 2 2 900 -200 200 L 50 50 0 0 P
+X 3 3 900 -100 200 L 50 50 0 0 P
+X 4 4 900 0 200 L 50 50 0 0 P
+X MH1 MH1 0 0 200 R 50 50 0 0 P
+X MH2 MH2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ABM8-272-T3
+#/19108233/1621525/2.50/4/3/Crystal or Oscillator
+DEF ABM8-272-T3 Y 0 30 Y Y 1 F N
+F0 "Y" 1450 300 50 H V L CNN
+F1 "ABM8-272-T3" 1450 200 50 H V L CNN
+F2 "ABM8272T3" 1450 100 50 H I L CNN
+F3 "https://abracon.com/datasheets/ABM8-272-T3.pdf" 1450 0 50 H I L CNN
+F4 "Crystal, 12 MHz, SMD, 3.2mm x 2.5mm, 30 ppm, 10 pF, 30 ppm, ABM8 Series" 1450 -100 50 H I L CNN "Description"
+F5 "0.8" 1450 -200 50 H I L CNN "Height"
+F6 "ABRACON" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ABM8-272-T3" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "815-ABM8-272-T3" 1450 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM8-272-T3?qs=QpmGXVUTftEj6miOiJBMxQ%3D%3D" 1450 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1450 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1450 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CRYSTAL_1 1 0 -100 200 R 50 50 0 0 P
+X GND_1 2 1600 -100 200 L 50 50 0 0 P
+X CRYSTAL_2 3 1600 0 200 L 50 50 0 0 P
+X GND_2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model NCP1117ST33T3G
+#/226072/1621525/2.50/4/2/Integrated Circuit
+DEF NCP1117ST33T3G IC 0 30 Y Y 1 F N
+F0 "IC" 1650 300 50 H V L CNN
+F1 "NCP1117ST33T3G" 1650 200 50 H V L CNN
+F2 "SOT230P700X180-4N" 1650 100 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF" 1650 0 50 H I L CNN
+F4 "Output Current in Excess of 1.0 A; 1.2 V Maximum Dropout Voltage at 800 mA Over Temperature; Fixed Output Voltages of 1.5 V, 1.8 V, 2.0 V, 2.5 V, 2.85 V, 3.3 V, 5.0 V, and 12 V; Adjustable Output Voltage Option; No Minimum Load Requirement for Fixed Voltage Output Devices; Reference/Output Voltage Trimmed to +/- 1.0%; Current Limit, Safe Operating and Thermal Shutdown Protection; Operation to 20 V Input; Pb-Free Packages are Available" 1650 -100 50 H I L CNN "Description"
+F5 "1.8" 1650 -200 50 H I L CNN "Height"
+F6 "onsemi" 1650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "NCP1117ST33T3G" 1650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "863-NCP1117ST33T3G" 1650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/onsemi/NCP1117ST33T3G?qs=Gev%252BmEvV0iZb%2FE8ahUDx3w%3D%3D" 1650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "NCP1117ST33T3G" 1650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ncp1117st33t3g/on-semiconductor?utm_currency=USD&region=europe" 1650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ADJUST/GROUND 1 0 0 200 R 50 50 0 0 P
+X OUTPUT_1 2 0 -100 200 R 50 50 0 0 P
+X INPUT 3 0 -200 200 R 50 50 0 0 P
+X OUTPUT_2 4 1800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1600 100 1600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model W25Q32JVSSIQ
+#/641947/1621525/2.50/8/2/Integrated Circuit
+DEF W25Q32JVSSIQ IC 0 30 Y Y 1 F N
+F0 "IC" 2050 300 50 H V L CNN
+F1 "W25Q32JVSSIQ" 2050 200 50 H V L CNN
+F2 "SOIC127P790X216-8N" 2050 100 50 H I L CNN
+F3 "https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q32JVSSIQ&type=datasheet" 2050 0 50 H I L CNN
+F4 "32Mb Serial NOR Flash 133MHz SOP8" 2050 -100 50 H I L CNN "Description"
+F5 "2.16" 2050 -200 50 H I L CNN "Height"
+F6 "Winbond" 2050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "W25Q32JVSSIQ" 2050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "454-W25Q32JVSSIQ" 2050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q32JVSSIQ?qs=qSfuJ%252Bfl%2Fd4PGZSN0WxfCA%3D%3D" 2050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "W25Q32JVSSIQ" 2050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/w25q32jvssiq/winbond-electronics?utm_currency=USD&region=nac" 2050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~CS 1 0 0 200 R 50 50 0 0 P
+X DO_(IO1) 2 0 -100 200 R 50 50 0 0 P
+X ~WP_(IO2) 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VCC 8 2200 0 200 L 50 50 0 0 P
+X ~HOLD_OR_~/RESET_(IO3) 7 2200 -100 200 L 50 50 0 0 P
+X CLK 6 2200 -200 200 L 50 50 0 0 P
+X DI_(IO0) 5 2200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 2000 100 2000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TS20-42-25-WT-160-SMT-TR
+#/16802075/1621525/2.50/4/2/Switch
+DEF TS20-42-25-WT-160-SMT-TR S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "TS20-42-25-WT-160-SMT-TR" 1050 200 50 H V L CNN
+F2 "TS204225WT160SMTTR" 1050 100 50 H I L CNN
+F3 "https://www.sameskydevices.com/product/resource/ts20.pdf" 1050 0 50 H I L CNN
+F4 "4.2 x 3.2 mm, 2.5 mm Actuator Height, 160 gf, White, Surface Mount, TR, SPST, Tactile Switch" 1050 -100 50 H I L CNN "Description"
+F5 "2.7" 1050 -200 50 H I L CNN "Height"
+F6 "Same Sky" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TS20-42-25-WT-160-SMT-TR" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "179-TS204225WT160SMT" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TS20-42-25-WT-160-SMT-TR?qs=tlsG%2FOw5FFiXbig16X7ymQ%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TS20-42-25-WT-160-SMT-TR" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ts20-42-25-wt-160-smt-tr/cui-devices?region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X NO_2 2 1200 0 200 L 50 50 0 0 P
+X COM_1 3 0 -100 200 R 50 50 0 0 P
+X COM_2 4 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

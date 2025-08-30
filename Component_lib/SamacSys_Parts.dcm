@@ -1,0 +1,81 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP BMI270
+D IMUs - Inertial Measurement Units Smart Ultra-Low Power Inertial Measurement Unit (IMU) for Wearable Applications
+K
+F https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf
+$ENDCMP
+#
+$CMP ESP32-C6
+D QFN32 (55 mm) Package
+K
+F https://ro.mouser.com/datasheet/2/891/esp32_c6_datasheet_en-3304070.pdf
+$ENDCMP
+#
+$CMP TP4056
+D 1A Standalone Linear Li-lon Battery Charger, SOP-8
+K
+F https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf
+$ENDCMP
+#
+$CMP BME690
+D Multiple Function Sensor Modules BME690 is the gas sensor with Artificial Intelligence (AI) and integrated high-linearity and high-accuracy  pressure, humidity and temperature sensors.
+K
+F https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme690/#documents
+$ENDCMP
+#
+$CMP BMM350
+D Board Mount Hall Effect / Magnetic Sensors High-Performance Magnometer
+K
+F https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmm350-ds001.pdf
+$ENDCMP
+#
+$CMP SCD40-D-R2
+D Air Quality Sensor CO2 Sensor 2.5V/3.3V/5V 20-Pin SMD EP
+K
+F https://www.arrow.com/en/products/scd40-d-r2/sensirion-ag
+$ENDCMP
+#
+$CMP SCD41-D-R1
+D Air Quality Sensors Sensirion photoacoustic CO2 sensor 10.1 x 10.1 x 6.5 mm3
+K
+F https://sensirion.com/media/documents/48C4B7FB/64C134E7/Sensirion_SCD4x_Datasheet.pdf
+$ENDCMP
+#
+$CMP 1734028-1
+D Body Features: Shell Plating Material Nickel over Copper | Connector Profile Standard | Configuration Features: Number of Mounting Legs 2 | Number of Ports 1 | Number of Positions 4 | Contact Features: Contact Mating Area Plating Material Thickness .76 MICM | Contact Mating Area Plating Material Gold Flash over Palladium Nickel | Contact Mating Area Plating Material Thickness 29.92 MICIN | Contact Current Rating (Max) 1.5 AMP | Dimensions: PCB Thickness (Recommended) .063 INCH | PCB Thickness (Recommended) 
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=7-1773442-0&DocType=Data%20Sheet&DocLang=English&PartCntxt=1734028-1&DocFormat=pdf
+$ENDCMP
+#
+$CMP ABM8-272-T3
+D Crystal, 12 MHz, SMD, 3.2mm x 2.5mm, 30 ppm, 10 pF, 30 ppm, ABM8 Series
+K
+F https://abracon.com/datasheets/ABM8-272-T3.pdf
+$ENDCMP
+#
+$CMP NCP1117ST33T3G
+D Output Current in Excess of 1.0 A; 1.2 V Maximum Dropout Voltage at 800 mA Over Temperature; Fixed Output Voltages of 1.5 V, 1.8 V, 2.0 V, 2.5 V, 2.85 V, 3.3 V, 5.0 V, and 12 V; Adjustable Output Voltage Option; No Minimum Load Requirement for Fixed Voltage Output Devices; Reference/Output Voltage Trimmed to +/- 1.0%; Current Limit, Safe Operating and Thermal Shutdown Protection; Operation to 20 V Input; Pb-Free Packages are Available
+K
+F https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP W25Q32JVSSIQ
+D 32Mb Serial NOR Flash 133MHz SOP8
+K
+F https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q32JVSSIQ&type=datasheet
+$ENDCMP
+#
+$CMP TS20-42-25-WT-160-SMT-TR
+D 4.2 x 3.2 mm, 2.5 mm Actuator Height, 160 gf, White, Surface Mount, TR, SPST, Tactile Switch
+K
+F https://www.sameskydevices.com/product/resource/ts20.pdf
+$ENDCMP
+#
+#End Doc Library
