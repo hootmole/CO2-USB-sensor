@@ -6195,7 +6195,7 @@
 				)
 			)
 		)
-		(property "Value" "SCD41-D-R1"
+		(property "Value" "a"
 			(at 172.466 75.184 90)
 			(effects
 				(font
